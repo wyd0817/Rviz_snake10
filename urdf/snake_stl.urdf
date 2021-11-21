@@ -11,24 +11,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -36,24 +36,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -61,24 +61,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -86,24 +86,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -111,24 +111,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -136,24 +136,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -161,24 +161,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -186,24 +186,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -211,24 +211,24 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <!-- link名 -->
@@ -236,41 +236,391 @@
     <!-- 見た目 -->
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.7 0.0 0.0 1.0"/>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/dynamixel.stl"/>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
     <inertial>
-      <mass value="0.023967239474"/>
-      <inertia ixx="3.5392036062e-06" ixy="0" ixz="0" iyy="3.2067700889e-06" iyz="0" izz="2.5171567719e-06"/>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_006">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_106">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_007">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_107">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_008">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_108">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_009">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_109">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_010">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_110">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_011">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_111">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_012">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
+    </inertial>
+  </link>
+  <!-- link名 -->
+  <link name="dynamixel_112">
+    <!-- 見た目 -->
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+      <origin rpy="3.14159265359 1.57079632679 1.57079632679" xyz="0 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/XH_430_idler.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.082"/>
+      <inertia ixx="0.023729564" ixy="0" ixz="0" iyy="0.013112295" iyz="0" izz="0.020942871"/>
     </inertial>
   </link>
   <link name="bracket_001">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -282,18 +632,18 @@
   <link name="bracket_002">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -305,18 +655,18 @@
   <link name="bracket_003">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -328,18 +678,18 @@
   <link name="bracket_004">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -351,18 +701,18 @@
   <link name="bracket_005">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -374,18 +724,18 @@
   <link name="bracket_006">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -397,18 +747,18 @@
   <link name="bracket_007">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -420,18 +770,18 @@
   <link name="bracket_008">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -443,18 +793,18 @@
   <link name="bracket_009">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -466,18 +816,340 @@
   <link name="bracket_010">
     <visual>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
       <material name="silver">
         <color rgba="0.75 0.75 0.75 1"/>
       </material>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
     </visual>
     <!--物理的特性-->
     <!--干渉-->
     <collision>
       <geometry>
-        <mesh filename="package://snake/mesh/adaptor.stl"/>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_011">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_012">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_013">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_014">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_015">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_016">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_017">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_018">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_019">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_020">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_021">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_022">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_023">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+    </collision>
+    <!--慣性-->
+    <inertial>
+      <mass value="0.0060293114415"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="bracket_024">
+    <visual>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.75 0.75 0.75 1"/>
+      </material>
+      <origin rpy="-1.57079632679 -1.57079632679 3.14159265359" xyz="0.023 0 0"/>
+    </visual>
+    <!--物理的特性-->
+    <!--干渉-->
+    <collision>
+      <geometry>
+        <mesh filename="package://snake/mesh/xh430_frame.stl"/>
       </geometry>
     </collision>
     <!--慣性-->
@@ -504,7 +1176,7 @@
   <joint name="fixed_001" type="fixed">
     <parent link="bracket_001"/>
     <child link="dynamixel_101"/>
-    <origin rpy="1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_002" type="revolute">
@@ -517,7 +1189,7 @@
   <joint name="fixed_002" type="fixed">
     <parent link="bracket_002"/>
     <child link="dynamixel_002"/>
-    <origin rpy="-1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_003" type="revolute">
@@ -530,7 +1202,7 @@
   <joint name="fixed_003" type="fixed">
     <parent link="bracket_003"/>
     <child link="dynamixel_102"/>
-    <origin rpy="1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_004" type="revolute">
@@ -543,7 +1215,7 @@
   <joint name="fixed_004" type="fixed">
     <parent link="bracket_004"/>
     <child link="dynamixel_003"/>
-    <origin rpy="-1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_005" type="revolute">
@@ -556,7 +1228,7 @@
   <joint name="fixed_005" type="fixed">
     <parent link="bracket_005"/>
     <child link="dynamixel_103"/>
-    <origin rpy="1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_006" type="revolute">
@@ -569,7 +1241,7 @@
   <joint name="fixed_006" type="fixed">
     <parent link="bracket_006"/>
     <child link="dynamixel_004"/>
-    <origin rpy="-1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_007" type="revolute">
@@ -582,7 +1254,7 @@
   <joint name="fixed_007" type="fixed">
     <parent link="bracket_007"/>
     <child link="dynamixel_104"/>
-    <origin rpy="1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_008" type="revolute">
@@ -595,7 +1267,7 @@
   <joint name="fixed_008" type="fixed">
     <parent link="bracket_008"/>
     <child link="dynamixel_005"/>
-    <origin rpy="-1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_009" type="revolute">
@@ -608,13 +1280,195 @@
   <joint name="fixed_009" type="fixed">
     <parent link="bracket_009"/>
     <child link="dynamixel_105"/>
-    <origin rpy="1.57079632679 0 0" xyz="0.046 0 0"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
   <joint name="joint_010" type="revolute">
     <axis xyz="0 1 0"/>
     <parent link="dynamixel_105"/>
     <child link="bracket_010"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_010" type="fixed">
+    <parent link="bracket_010"/>
+    <child link="dynamixel_006"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_011" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_006"/>
+    <child link="bracket_011"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_011" type="fixed">
+    <parent link="bracket_011"/>
+    <child link="dynamixel_106"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_012" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_106"/>
+    <child link="bracket_012"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_012" type="fixed">
+    <parent link="bracket_012"/>
+    <child link="dynamixel_007"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_013" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_007"/>
+    <child link="bracket_013"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_013" type="fixed">
+    <parent link="bracket_013"/>
+    <child link="dynamixel_107"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_014" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_107"/>
+    <child link="bracket_014"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_014" type="fixed">
+    <parent link="bracket_014"/>
+    <child link="dynamixel_008"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_015" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_008"/>
+    <child link="bracket_015"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_015" type="fixed">
+    <parent link="bracket_015"/>
+    <child link="dynamixel_108"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_016" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_108"/>
+    <child link="bracket_016"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_016" type="fixed">
+    <parent link="bracket_016"/>
+    <child link="dynamixel_009"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_017" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_009"/>
+    <child link="bracket_017"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_017" type="fixed">
+    <parent link="bracket_017"/>
+    <child link="dynamixel_109"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_018" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_109"/>
+    <child link="bracket_018"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_018" type="fixed">
+    <parent link="bracket_018"/>
+    <child link="dynamixel_010"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_019" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_010"/>
+    <child link="bracket_019"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_019" type="fixed">
+    <parent link="bracket_019"/>
+    <child link="dynamixel_110"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_020" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_110"/>
+    <child link="bracket_020"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_020" type="fixed">
+    <parent link="bracket_020"/>
+    <child link="dynamixel_011"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_021" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_011"/>
+    <child link="bracket_021"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_021" type="fixed">
+    <parent link="bracket_021"/>
+    <child link="dynamixel_111"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_022" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_111"/>
+    <child link="bracket_022"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_022" type="fixed">
+    <parent link="bracket_022"/>
+    <child link="dynamixel_012"/>
+    <origin rpy="-1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_023" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_012"/>
+    <child link="bracket_023"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="fixed_023" type="fixed">
+    <parent link="bracket_023"/>
+    <child link="dynamixel_112"/>
+    <origin rpy="1.57079632679 0 0" xyz="0.0605 0 0"/>
+    <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
+  </joint>
+  <joint name="joint_024" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="dynamixel_112"/>
+    <child link="bracket_024"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <limit effort="0" lower="-1.57079632679" upper="1.57079632679" velocity="0"/>
   </joint>
@@ -738,12 +1592,180 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
+  <transmission name="motor_011">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_011">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_011">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_012">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_012">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_012">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_013">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_013">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_013">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_014">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_014">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_014">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_015">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_015">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_015">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_016">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_016">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_016">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_017">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_017">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_017">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_018">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_018">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_018">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_019">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_019">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_019">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_020">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_020">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_020">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_021">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_021">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_021">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_022">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_022">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_022">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_023">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_023">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_023">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="motor_024">
+    <type>transmission_interface/SimpleTransmission</type>
+    <!--関節の指定-->
+    <joint name="joint_024">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <!--アクチュエータの定義（ギア比1の減速機）-->
+    <actuator name="trans_024">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
   <gazebo>
     <!--関節状態配信プラグインを指定-->
     <plugin filename="libgazebo_ros_joint_state_publisher.so" name="joint_state_publisher">
       <!--対象とする関節名を指定-->
       <jointName>
-      ['joint_001', 'joint_002', 'joint_003', 'joint_004', 'joint_005', 'joint_006', 'joint_007', 'joint_008', 'joint_009', 'joint_010']
+      ['joint_001', 'joint_002', 'joint_003', 'joint_004', 'joint_005', 'joint_006', 'joint_007', 'joint_008', 'joint_009', 'joint_010', 'joint_011', 'joint_012', 'joint_013', 'joint_014', 'joint_015', 'joint_016', 'joint_017', 'joint_018', 'joint_019', 'joint_020', 'joint_021', 'joint_022', 'joint_023', 'joint_024']
       </jointName>
     </plugin>
   </gazebo>
