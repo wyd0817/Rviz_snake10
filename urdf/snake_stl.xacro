@@ -1,15 +1,17 @@
 <robot name="test_robot" xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:property name="dynamixel" value="package://snake/mesh/dynamixel.stl"/> 
-  <xacro:property name="mass_d" value="0.023967239474" />
-	<xacro:property name="ixx_d" value="3.5392036062e-06" />
-	<xacro:property name="iyy_d" value="3.2067700889e-06" />
-  <xacro:property name="izz_d" value="2.5171567719e-06" />
-	<xacro:property name="ixy_d" value="0" />
+
+  <xacro:property name="dynamixel_xh430" value="package://snake/mesh/XH_430_idler.stl"/> 
+  <xacro:property name="mass_d" value="0.082" />
+	<xacro:property name="ixx_d" value="2.3729564e-02" />  
+	<xacro:property name="iyy_d" value="1.3112295e-02" />  
+  <xacro:property name="izz_d" value="2.0942871e-02" />  
+  <xacro:property name="ixy_d" value="0" />
 	<xacro:property name="iyz_d" value="0" />
   <xacro:property name="izx_d" value="0"/>
   <xacro:property name="gear" value="1" />
 
-  <xacro:property name="adaptor" value="package://snake/mesh/adaptor.stl"/>
+
+  <xacro:property name="xh430_flame" value="package://snake/mesh/xh430_frame.stl"/>
   <xacro:property name="mass_a" value="0.0060293114415" />
   <xacro:property name="ixx_a" value="1.4057440439e-06" />
   <xacro:property name="iyy_a" value="1.144769055e-06" />
@@ -31,7 +33,21 @@
                                         'dynamixel_004',
                                         'dynamixel_104',
                                         'dynamixel_005',
-                                        'dynamixel_105'
+                                        'dynamixel_105',
+                                        'dynamixel_006',
+                                        'dynamixel_106',
+                                        'dynamixel_007',
+                                        'dynamixel_107',
+                                        'dynamixel_008',
+                                        'dynamixel_108',
+                                        'dynamixel_009',
+                                        'dynamixel_109',
+                                        'dynamixel_010',
+                                        'dynamixel_110',
+                                        'dynamixel_011',
+                                        'dynamixel_111',
+                                        'dynamixel_012',
+                                        'dynamixel_112'
                                           ]}" />
   <!-- 定義するbracketの名前 -->
   <xacro:property name="bracket_names" value="${[
@@ -44,7 +60,21 @@
                                         'bracket_007',
                                         'bracket_008',
                                         'bracket_009',
-                                        'bracket_010'
+                                        'bracket_010',
+                                        'bracket_011',
+                                        'bracket_012',
+                                        'bracket_013',
+                                        'bracket_014',
+                                        'bracket_015',
+                                        'bracket_016',
+                                        'bracket_017',
+                                        'bracket_018',
+                                        'bracket_019',
+                                        'bracket_020',
+                                        'bracket_021',
+                                        'bracket_022',
+                                        'bracket_023',
+                                        'bracket_024'
                                           ]}" />
 
 
@@ -68,7 +98,39 @@
                 ['fixed_008', 'bracket_008', 'dynamixel_005', 'even'],
                 ['joint_009', 'dynamixel_005', 'bracket_009'],
                 ['fixed_009', 'bracket_009', 'dynamixel_105', 'odd'],
-                ['joint_010', 'dynamixel_105', 'bracket_010']
+                ['joint_010', 'dynamixel_105', 'bracket_010'],
+                ['fixed_010', 'bracket_010', 'dynamixel_006', 'even'],
+
+                ['joint_011', 'dynamixel_006', 'bracket_011'],
+                ['fixed_011', 'bracket_011', 'dynamixel_106', 'odd'],
+                ['joint_012', 'dynamixel_106', 'bracket_012'],
+                ['fixed_012', 'bracket_012', 'dynamixel_007', 'even'],
+                ['joint_013', 'dynamixel_007', 'bracket_013'],
+                ['fixed_013', 'bracket_013', 'dynamixel_107', 'odd'],
+                ['joint_014', 'dynamixel_107', 'bracket_014'],
+                ['fixed_014', 'bracket_014', 'dynamixel_008', 'even'],
+                ['joint_015', 'dynamixel_008', 'bracket_015'],
+                ['fixed_015', 'bracket_015', 'dynamixel_108', 'odd'],
+                ['joint_016', 'dynamixel_108', 'bracket_016'],
+                ['fixed_016', 'bracket_016', 'dynamixel_009', 'even'],
+                ['joint_017', 'dynamixel_009', 'bracket_017'],
+                ['fixed_017', 'bracket_017', 'dynamixel_109', 'odd'],
+                ['joint_018', 'dynamixel_109', 'bracket_018'],
+                ['fixed_018', 'bracket_018', 'dynamixel_010', 'even'],
+                ['joint_019', 'dynamixel_010', 'bracket_019'],
+                ['fixed_019', 'bracket_019', 'dynamixel_110', 'odd'],
+                ['joint_020', 'dynamixel_110', 'bracket_020'],
+                ['fixed_020', 'bracket_020', 'dynamixel_011', 'even'],
+                
+                ['joint_021', 'dynamixel_011', 'bracket_021'],
+                ['fixed_021', 'bracket_021', 'dynamixel_111', 'odd'],
+                ['joint_022', 'dynamixel_111', 'bracket_022'],
+                ['fixed_022', 'bracket_022', 'dynamixel_012', 'even'],
+                ['joint_023', 'dynamixel_012', 'bracket_023'],
+                ['fixed_023', 'bracket_023', 'dynamixel_112', 'odd'],
+                ['joint_024', 'dynamixel_112', 'bracket_024']
+                
+
                                               ]}" />
 
 <!-- 定義するactuatorの名前: joint名, motor名, transmission名 -->
@@ -82,7 +144,21 @@
                                         ['joint_007', 'motor_007', 'trans_007'],
                                         ['joint_008', 'motor_008', 'trans_008'],
                                         ['joint_009', 'motor_009', 'trans_009'],
-                                        ['joint_010', 'motor_010', 'trans_010']
+                                        ['joint_010', 'motor_010', 'trans_010'],
+                                        ['joint_011', 'motor_011', 'trans_011'],
+                                        ['joint_012', 'motor_012', 'trans_012'],
+                                        ['joint_013', 'motor_013', 'trans_013'],
+                                        ['joint_014', 'motor_014', 'trans_014'],
+                                        ['joint_015', 'motor_015', 'trans_015'],
+                                        ['joint_016', 'motor_016', 'trans_016'],
+                                        ['joint_017', 'motor_017', 'trans_017'],
+                                        ['joint_018', 'motor_018', 'trans_018'],
+                                        ['joint_019', 'motor_019', 'trans_019'],
+                                        ['joint_020', 'motor_020', 'trans_020'],
+                                        ['joint_021', 'motor_021', 'trans_021'],
+                                        ['joint_022', 'motor_022', 'trans_022'],
+                                        ['joint_023', 'motor_023', 'trans_023'],
+                                        ['joint_024', 'motor_024', 'trans_024']
                                           ]}" />
 
 <!-- 定義するactuatorの名前 -->
@@ -96,7 +172,21 @@
                                         'joint_007',
                                         'joint_008',
                                         'joint_009',
-                                        'joint_010'
+                                        'joint_010',
+                                        'joint_011',
+                                        'joint_012',
+                                        'joint_013',
+                                        'joint_014',
+                                        'joint_015',
+                                        'joint_016',
+                                        'joint_017',
+                                        'joint_018',
+                                        'joint_019',
+                                        'joint_020',
+                                        'joint_021',
+                                        'joint_022',
+                                        'joint_023',
+                                        'joint_024'
                                         ]}" />
 
 	<link name="world"/>
@@ -115,10 +205,10 @@
         <!-- 見た目 -->
         <visual>
           <geometry>
-            <mesh filename = "${dynamixel}"/>
+            <mesh filename = "${dynamixel_xh430}"/>
           </geometry>
-          <material name="red">
-            <color rgba="0.7 0.0 0.0 1.0"/>
+          <material name="cyan">
+            <color rgba="0.0 1.0 1.0 1.0"/>
           </material>
                 <origin rpy="0 0 0" xyz="0 0 0"/>
         </visual>
@@ -127,7 +217,7 @@
         <!--干渉-->
         <collision>
           <geometry>
-            <mesh filename = "${dynamixel}"/>
+            <mesh filename = "${dynamixel_xh430}"/>
           </geometry>
         </collision>
         <!--慣性-->
@@ -152,7 +242,7 @@
       <link name="${item}">
       <visual>
         <geometry>
-          <mesh filename = "${adaptor}"/>
+          <mesh filename = "${xh430_flame}"/>
         </geometry>
         <material name="silver">
           <color rgba="0.75 0.75 0.75 1"/>
@@ -163,7 +253,7 @@
       <!--干渉-->
       <collision>
         <geometry>
-          <mesh filename = "${adaptor}"/>
+          <mesh filename = "${xh430_flame}"/>
         </geometry>
       </collision>
 
